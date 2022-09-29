@@ -73,6 +73,15 @@ You should see somthing similar to the following
    ```bash
    aws --endpoint-url=http://localhost:4566 s3 cp localstack-readme-banner.svg s3://bucket-demo
    ```
+   For verify the upload succeeded use the following:
+   ```bash
+   aws --endpoint-url=http://localhost:4566 s3 ls s3://bucket-demo
+   ```
+   You should see something similar the following:
+   ```bash
+   2022-09-29 12:24:12      94739 localstack-readme-banner.svg
+   ```
+
 
 
 
