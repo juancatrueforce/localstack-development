@@ -81,7 +81,38 @@ You should see somthing similar to the following
    ```bash
    2022-09-29 12:24:12      94739 localstack-readme-banner.svg
    ```
-
+## Upload App
+You can use upload-app to upload files with nodejs.
+1. Enter to upload-app with the following command:
+   ```bash
+   cd upload-app
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Copy .env file with the following command:
+   ```bash
+   cp .env.sample .env
+   ```
+4. For uploading files use the following command:
+   ```bash
+   node test-upload.js 
+   ```
+   You should see the following output:
+   ```bash
+   Debugger listening on ws://127.0.0.1:53201/cd2d6111-103d-447a-9438-3345871c363f
+   For help, see: https://nodejs.org/en/docs/inspector
+   Debugger attached.
+   :)
+   {
+   ETag: '"bb2791f15c359b5979002fd29d6756c8"',
+   Location: 'http://localhost:4566/bucket-demo/test-image-2022-09-29T23%3A02%3A36.289Z.jpg',
+   key: 'test-image-2022-09-29T23:02:36.289Z.jpg',
+   Key: 'test-image-2022-09-29T23:02:36.289Z.jpg',
+   Bucket: 'bucket-demo'
+   }
+   ```
 
 
 

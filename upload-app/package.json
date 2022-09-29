@@ -1,0 +1,23 @@
+{
+  "name": "localstack-develop",
+  "version": "1.0.0",
+  "description": "I hope this repo will be usefull for you, the reason this repo is that you can use functions of aws on local in your development environment.",
+  "main": "aws.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juancatrueforce/localstack-development.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juancatrueforce/localstack-development/issues"
+  },
+  "homepage": "https://github.com/juancatrueforce/localstack-development#readme",
+  "dependencies": {
+    "aws-sdk": "^2.1226.0",
+    "dotenv": "^16.0.3"
+  }
+}
