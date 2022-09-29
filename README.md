@@ -1,8 +1,15 @@
-# LOCALSTACK IN LOCAL 
+# [LOCALSTACK](https://github.com/localstack/localstack) WITH DOCKER COMPOSE
 
-I hope this repo will be usefu for you, the reason this repo is that you can use functions of aws on local in your development environment.
+I hope this repo will be usefull for you, the reason this repo is that you can use functions of aws on local in your development environment.
 
-The steps are as follows:
+## Requirements
+- [Docker](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-on-debian-10)
+- [Docker Compose](https://www.digitalocean.com/community/tutorials/how-to-install-and-use-docker-compose-on-ubuntu-22-04)
+- [AWS Client](https://gist.github.com/anamorph/aaf8434d3bbad92059b3)
+
+
+## Installation
+The steps for get **localstack** are as follows:
 
 1. Running LocalStack with docker compose, into root project's folder execute the following.
     ```bash 
