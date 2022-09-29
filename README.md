@@ -61,3 +61,7 @@ You should see somthing similar to the following
     ```bash
     awslocal s3 ls
     ```
+    Also you can verify from out of the container with the following:
+    ```bash
+    aws --endpoint-url=http://localhost:4566 s3 ls
+    ```
