@@ -65,3 +65,15 @@ You should see somthing similar to the following
     ```bash
     aws --endpoint-url=http://localhost:4566 s3 ls
     ```
+    You have to see something like this:
+    ```bash
+    2022-09-29 11:42:43 bucket-demo
+    ```
+8. Now you can upload files to your new bucket of AWS without spending money. Typing the following(**localstack-readme-banner.svg** is my test file you can use other file to upload):
+   ```bash
+   aws --endpoint-url=http://localhost:4566 s3 cp localstack-readme-banner.svg s3://bucket-demo
+   ```
+
+
+
+  
